@@ -1,0 +1,30 @@
+{
+  "name"              : "GoogleSiteVerification",
+  "namespace"         : "GoogleSiteVerification",
+  "type"              : "template",
+  "version"           : "1.0.0",
+  "license"           : "AGPL-3.0",
+  "price"             : 0.00,
+  "description"       : "Confirm the website ownership for plentymarkets webshops",
+  "shortDescription"  : {"de": "Website-Inhaberschaft für plentymarkets Webshops bestätigen","en": "Confirm the website ownership for plentymarkets webshops"},
+  "categories"        : ["3527"],
+  "author"            : "plentymarkets GmbH",
+  "authorIcon"        : "icon_author_xs.png",
+  "pluginIcon"        : "icon_plugin_xs.png",
+  "email"             : "sales@plentymarkets.com",
+  "phone"             : "+49 561 98 681 100",
+  "keywords"          : ["plentymarkets", "plugins", "layout", "template", "google", "site verification"],
+  "require"           : ["IO"],
+  "serviceProvider"   : "GoogleSiteVerification\\Providers\\GoogleSiteVerificationServiceProvider",
+  "javaScriptFiles"   : [],
+  "containers"        : [],
+  "dataProviders": [
+    {
+      "key"           :"GoogleSiteVerification\\Providers\\GoogleSiteVerificationProvider",
+      "name"          :"Google Site Verification",
+      "description"   :"Confirm the website ownership for plentymarkets webshops"
+    }
+  ],
+  "dependencies"      : [],
+  "runOnBuild"        : []
+}

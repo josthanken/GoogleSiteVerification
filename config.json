@@ -1,0 +1,9 @@
+[
+  {
+    "tab"       : "Settings",
+    "key"       : "String_we_ask_for",
+    "label"     : "String_we_ask_for ",
+    "type"      : "text",
+    "default"   : ""
+  }
+]
